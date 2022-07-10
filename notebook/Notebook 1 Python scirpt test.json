@@ -1,5 +1,5 @@
 {
-	"name": "Notebook 1 test first",
+	"name": "Notebook 1 Python scirpt test",
 	"properties": {
 		"nbformat": 4,
 		"nbformat_minor": 2,
@@ -14,7 +14,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "486935c8-f2db-4eb7-8582-92d0c17e85cb"
+				"spark.autotune.trackingId": "56f57653-2765-461a-b8f7-b06fd64fad8b"
 			}
 		},
 		"metadata": {
@@ -33,7 +33,7 @@
 			{
 				"cell_type": "code",
 				"source": [
-					"print('marko')"
+					"print('test')"
 				],
 				"attachments": null,
 				"execution_count": null
