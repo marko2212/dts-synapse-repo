@@ -5,23 +5,23 @@
 		"workspaceName": {
 			"value": "synapsedtsws"
 		},
-		"ls_asql_db_connectionString": {
+		"synapsedtsws-WorkspaceDefaultSqlServer_connectionString": {
 			"value": ""
 		},
 		"ls_dl_asa_dts_accountKey": {
 			"value": ""
 		},
-		"synapsedtsws-WorkspaceDefaultSqlServer_connectionString": {
+		"ls_asql_db_connectionString": {
 			"value": ""
 		},
-		"ls_HttpServer12_JSON_properties_typeProperties_url": {
-			"value": "https://opendata.stat.gov.rs"
+		"synapsedtsws-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://dlsynapsedts.dfs.core.windows.net"
 		},
 		"ls_dl_asa_dts_properties_typeProperties_url": {
 			"value": "https://dlsynapsedts.dfs.core.windows.net/"
 		},
-		"synapsedtsws-WorkspaceDefaultStorage_properties_typeProperties_url": {
-			"value": "https://dlsynapsedts.dfs.core.windows.net"
+		"ls_HttpServer12_JSON_properties_typeProperties_url": {
+			"value": "https://opendata.stat.gov.rs"
 		}
 	}
 }
