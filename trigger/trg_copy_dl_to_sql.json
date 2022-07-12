@@ -15,7 +15,7 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Day",
+				"frequency": "Week",
 				"interval": 1,
 				"startTime": "2022-05-10T18:49:00",
 				"timeZone": "Central Europe Standard Time",
@@ -25,6 +25,9 @@
 					],
 					"hours": [
 						7
+					],
+					"weekDays": [
+						"Friday"
 					]
 				}
 			}
