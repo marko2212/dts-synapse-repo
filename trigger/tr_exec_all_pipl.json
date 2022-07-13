@@ -1,12 +1,12 @@
 {
-	"name": "trg_ml",
+	"name": "tr_exec_all_pipl",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "pip_ml",
+					"referenceName": "pip_exec_all_piplines",
 					"type": "PipelineReference"
 				}
 			}
@@ -16,7 +16,7 @@
 			"recurrence": {
 				"frequency": "Week",
 				"interval": 1,
-				"startTime": "2022-07-10T20:49:00Z",
+				"startTime": "2022-07-13T22:12:00Z",
 				"timeZone": "UTC",
 				"schedule": {
 					"minutes": [
@@ -26,6 +26,10 @@
 						11
 					],
 					"weekDays": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
 						"Friday"
 					]
 				}
