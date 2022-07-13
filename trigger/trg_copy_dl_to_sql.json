@@ -3,7 +3,7 @@
 	"properties": {
 		"description": "Copy all from datalake to SQL stg tables",
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
