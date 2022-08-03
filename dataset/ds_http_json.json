@@ -13,7 +13,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "cloudboxacademy/covid19/main/ecdc_data/testing.csv"
+				"relativeUrl": "data/WcfJsonRestService.Service1.svc/dataset/1802010301IND01/1/json"
 			}
 		},
 		"schema": {}
