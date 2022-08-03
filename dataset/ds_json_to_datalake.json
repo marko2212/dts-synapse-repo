@@ -1,0 +1,21 @@
+{
+	"name": "ds_json_to_datalake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dl_asa_dts",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Testing http"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "test.json"
+			}
+		},
+		"schema": {}
+	}
+}
