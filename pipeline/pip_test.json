@@ -1,0 +1,32 @@
+{
+	"name": "pip_test",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://opendata.stat.gov.rs/data/WcfJsonRestService.Service1.svc/dataset/1802010301IND01/1/json",
+					"connectVia": {
+						"referenceName": "AutoResolveIntegrationRuntime",
+						"type": "IntegrationRuntimeReference"
+					},
+					"method": "GET"
+				}
+			}
+		],
+		"folder": {
+			"name": "DTS"
+		},
+		"annotations": []
+	}
+}

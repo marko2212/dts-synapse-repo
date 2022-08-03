@@ -1,0 +1,17 @@
+{
+	"name": "ds_http_json_test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_HttpServer1_test_json",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
