@@ -1,0 +1,21 @@
+{
+	"name": "ds_http_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_HttpServer12_JSON",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Testing http"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "cloudboxacademy/covid19/main/ecdc_data/testing.csv"
+			}
+		},
+		"schema": {}
+	}
+}
