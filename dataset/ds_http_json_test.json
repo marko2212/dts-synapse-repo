@@ -5,6 +5,9 @@
 			"referenceName": "ls_HttpServer12_JSON",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Testing http"
+		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {

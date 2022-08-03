@@ -5,6 +5,9 @@
 			"referenceName": "ls_dl_asa_dts",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Testing http"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
