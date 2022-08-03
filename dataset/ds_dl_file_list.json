@@ -1,0 +1,32 @@
+{
+	"name": "ds_dl_file_list",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dl_asa_dts",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Testing http"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "open_data_file_list.json",
+				"fileSystem": "row"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"sourceRelativeURL": {
+					"type": "string"
+				},
+				"sinkFileName": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
