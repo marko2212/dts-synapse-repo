@@ -1,0 +1,20 @@
+{
+	"name": "ds_csv_to_datalake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dl_asa_dts",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
