@@ -1,11 +1,10 @@
 {
 	"name": "ls_HttpServer12_JSON",
-	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://opendata.stat.gov.rs",
+			"url": "https://github.com",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		},
@@ -13,5 +12,6 @@
 			"referenceName": "AutoResolveIntegrationRuntime",
 			"type": "IntegrationRuntimeReference"
 		}
-	}
+	},
+	"type": "Microsoft.Synapse/workspaces/linkedservices"
 }
